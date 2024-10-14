@@ -83,6 +83,13 @@ Pada mode admin, Diberikan pilihan 5 Fitur seperti gambar di atas dan di minta u
     
     ![image](https://github.com/user-attachments/assets/9621042c-ca17-4127-b88a-4cd0c255e118)
 
+    -Sesudah di hapus
+
+    ![image](https://github.com/user-attachments/assets/e501a864-62ce-47f1-ab65-df8d7ea14255)
+
+    Terlihat pada No Barang "11" telah terhapus saat admin menggunakan fitur Hapus barang
+
+
     
 
 
