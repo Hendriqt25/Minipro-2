@@ -82,16 +82,16 @@ def tambah_kamar():
 # Fungsi untuk menghapus kamar
 def hapus_kamar():
     daftar_kamar()
-    nomor_kamar = input("Masukkan nomor kamar yang ingin di hapus: ")
+    nomor_kamar = input("Masukkan nomor kamar yang ingin dihapus: ")
     
-    # cari setiap lantai
+    # Cek di setiap lantai
     for lantai in [kamar_lantai_2, kamar_lantai_3, kamar_lantai_4]:
         if nomor_kamar in lantai:
             del lantai[nomor_kamar]
-        print(f"kamar{nomor_kamar}berhasil dihapus daftar kamar")
-        return
-    else:
-        print("Nomor kamar tidak dapat di temukan")
+            print(f"Kamar {nomor_kamar} berhasil dihapus!")
+            return
+    
+    print("Nomor kamar tidak ditemukan.")
 
 # Fungsi untuk melihat daftar kamar 
 def daftar_kamar():
@@ -112,7 +112,7 @@ def daftar_kamar():
 # Fungsi untuk menambah reservasi
 def buat_reservasi():
     nama_tamu = input("Masukkan nama tamu: ")
-    nomor_kamar = input("Masukkan nomor kamar yang ingin anda dipesan (201-210, 301-310, atau 401-410): ")
+    nomor_kamar = input("Masukkan nomor kamar yang ingin anda dipesan: ")
     
     if (nomor_kamar in kamar_lantai_2 or 
         nomor_kamar in kamar_lantai_3 or 
@@ -188,7 +188,7 @@ def admin():
             print("5. Daftar Reservasi")
             print("6. Keluar")
             
-            opsi = input("Pilih opsi (1-5): ")
+            opsi = input("Pilih opsi (1-6): ")
             
             if opsi == '1':
                 daftar_kamar()
@@ -201,11 +201,11 @@ def admin():
             elif opsi == '5':
                 daftar_reservasi()
             elif opsi == '6':
-                mode_login = input ("Apakah anda ingin Keluar atau Kembali ke mode login? (Keluar/Kembali) : ").capitalize()
+                mode_login = input ("Apakah anda ingin Keluar atau Kembali ke mode login? (Keluar/Mulai) : ").capitalize()
                 if mode_login == "Keluar":
                     print("Terimakasih telah berkunjung di Hotel Jatra Balikpapan")
                     sys.exit()
-                elif mode_login == "Kembali":
+                elif mode_login == "Mulai":
                     login()
                     break  
             else:
@@ -229,11 +229,11 @@ def tamu():
             elif opsi == '3':
                 daftar_reservasi()
             elif opsi == '4':
-                mode_login = input ("Apakah anda ingin Keluar atau Kembali ke mode login? (Keluar/Kembali) : ").capitalize()
+                mode_login = input ("Apakah anda ingin Keluar atau Kembali ke mode login? (Keluar/mulai) : ").capitalize()
                 if mode_login == "Keluar":
                     print("Terimakasih telah berkunjung di Hotel Jatra Balikpapan")
                     sys.exit()
-                elif mode_login == "Kembali":
+                elif mode_login == "Mulai":
                     login()
                     break  
                 break
