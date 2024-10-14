@@ -47,10 +47,10 @@ def login():
 def tambah_kamar():
     daftar_kamar()
     lantai = input("Masukkan lantai kamar (2, 3, atau 4): ")
-    
+    nomor_kamar = input("Masukkan nomor kamar: ")
+
     if lantai == '2':
         if nomor_kamar not in kamar_lantai_2:
-            nomor_kamar = input("Masukkan nomor kamar: ")
             tipe_kamar = input("Masukkan tipe kamar: ")
             fasilitas = input("Masukkan fasilitas: ")
             kamar_lantai_2[nomor_kamar] = {'tipe': tipe_kamar, 'fasilitas': fasilitas}
@@ -60,7 +60,6 @@ def tambah_kamar():
     
     elif lantai == '3':
         if nomor_kamar not in kamar_lantai_3:
-            nomor_kamar = input("Masukkan nomor kamar: ")
             tipe_kamar = input("Masukkan tipe kamar: ")
             fasilitas = input("Masukkan fasilitas: ")
             kamar_lantai_3[nomor_kamar] = {'tipe': tipe_kamar, 'fasilitas': fasilitas}
@@ -70,7 +69,6 @@ def tambah_kamar():
     
     elif lantai == '4':
         if nomor_kamar not in kamar_lantai_4:
-            nomor_kamar = input("Masukkan nomor kamar: ")
             tipe_kamar = input("Masukkan tipe kamar: ")
             fasilitas = input("Masukkan fasilitas: ")
             kamar_lantai_4[nomor_kamar] = {'tipe': tipe_kamar, 'fasilitas': fasilitas}
@@ -83,6 +81,7 @@ def tambah_kamar():
 
 # Fungsi untuk menghapus kamar
 def hapus_kamar():
+    daftar_kamar()
     nomor_kamar = input("Masukkan nomor kamar yang ingin di hapus: ")
     
     # cari setiap lantai
@@ -207,7 +206,7 @@ def admin():
                     print("Terimakasih telah berkunjung di Hotel Jatra Balikpapan")
                     sys.exit()
                 elif mode_login == "Kembali":
-                    admin()
+                    login()
                     break  
             else:
                 print("Pilihan tidak valid!")
