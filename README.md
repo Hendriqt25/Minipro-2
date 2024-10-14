@@ -34,14 +34,14 @@ jika user menginputkan angka selain 1 dan 2 otomatis akan kembali ke Menu Mode L
 
 Jika user menginputkan angka 1 otomatis langsung ke menu admin Hotel Jatra Balikpapan.
 
-Pada mode admin, Diberikan pilihan 5 Fitur seperti gambar di atas dan di minta untuk menginputkan fitur sesuai dengan angka fitur yang disediakan.
+Pada mode admin, Diberikan pilihan 6 Fitur seperti gambar di atas dan di minta untuk menginputkan fitur sesuai dengan angka fitur yang disediakan.
 
 # Penjelasan Fitur Admin
   1. Daftar Kamar
 
      ![image](https://github.com/user-attachments/assets/1170cf7a-58a8-48d1-9095-dce82fe1426b)
 
-  fitur daftar kamar ini digunakan untuk melihat kamar hotel apa saja yang tersedia. Disaat daftar kamar sudah muncul dalam output otomatis akan looping kembali ke fitur menu admin.
+     fitur daftar kamar ini digunakan untuk melihat kamar hotel apa saja yang tersedia. Disaat daftar kamar sudah muncul dalam output otomatis akan looping kembali ke fitur menu admin.
 
   2. Tambah Kamar
 
@@ -82,38 +82,37 @@ Pada mode admin, Diberikan pilihan 5 Fitur seperti gambar di atas dan di minta u
 
     -Sebelum di Hapus
     
-    ![image](https://github.com/user-attachments/assets/9621042c-ca17-4127-b88a-4cd0c255e118)
+    ![image](https://github.com/user-attachments/assets/8ffea569-6483-4813-bda3-ec524187d547)
 
     -Sesudah di hapus
 
-    ![image](https://github.com/user-attachments/assets/e501a864-62ce-47f1-ab65-df8d7ea14255)
+    ![image](https://github.com/user-attachments/assets/27867078-0a72-40a2-afed-28e4b625e914)
 
-    Terlihat pada Nomor kamar "306" telah terhapus di daftar kamar saat admin menggunakan fitur Hapus barang.
+    Terlihat pada Nomor kamar "404" telah terhapus di daftar kamar saat admin menggunakan fitur Hapus barang.
 
 5. Daftar reservasi
+    Admin bisa menlihat jika tidak ada yang reservasi hotel maka:
 
-   Admin bisa menlihat jika tidak ada yang reservasi hotel maka:
-   
-   ![image](https://github.com/user-attachments/assets/ca12b6ad-4fd8-42f3-9c24-d17e3cc361ab)
+    ![image](https://github.com/user-attachments/assets/ca12b6ad-4fd8-42f3-9c24-d17e3cc361ab)
 
-   jika ada yang sudah reservasi hotel akan di tampilkan maka:
+    jika ada yang sudah reservasi hotel akan di tampilkan maka:
    
-   ![image](https://github.com/user-attachments/assets/0861dc60-1eca-4f08-9c1a-997b52c13a79)
+    ![image](https://github.com/user-attachments/assets/d9a067ce-285c-42b4-854f-b952dc5c5111)
 
 6. Keluar atau mulai ke Mode Login
 
-  Jika admin sudah cukup menggunakan fiturnya, admin bisa memilih fitur ke 6 yaitu Keluar atau Mulai ke Mode Login. Disaat memilih admin akan diberikan dua opsi yaitu     
-  Keluar yang bisa diartikan langsung keluar exit dari program dan mulai ke Mode Login yang otomatis ketika admin input "Mulai", admin akan diarahkan ke Mode Login lagi.
+    Jika admin sudah cukup menggunakan fiturnya, admin bisa memilih fitur ke 6 yaitu Keluar atau Mulai ke Mode Login. Disaat memilih admin akan diberikan dua opsi yaitu     
+    Keluar yang bisa diartikan langsung keluar exit dari program dan mulai ke Mode Login yang otomatis ketika admin input "Mulai", admin akan diarahkan ke Mode Login lagi.
 
 
-  ![image](https://github.com/user-attachments/assets/28ff7516-8067-46de-a867-b5d62e80eac8)
+    ![image](https://github.com/user-attachments/assets/28ff7516-8067-46de-a867-b5d62e80eac8)
 
 
-  - Jika keluar,
+    - Jika keluar,
 
     ![image](https://github.com/user-attachments/assets/1db44936-0897-44ea-9be8-e34b2be6df78)
 
-  - Jika mulai,
+    - Jika mulai,
 
     ![image](https://github.com/user-attachments/assets/83bfd736-ea72-4692-831c-cca7f7377438)
 
@@ -123,6 +122,34 @@ Pada mode admin, Diberikan pilihan 5 Fitur seperti gambar di atas dan di minta u
 
 Maka outputnya pilihan tidak valid
 
+# Fitur Menu Tamu 
+
+![image](https://github.com/user-attachments/assets/bec8276e-c6b5-4b36-bb21-aa2a50dbfd3c)
+
+Jika user menginputkan angka 2 otomatis langsung ke menu tamu Hotel Jatra Balikpapan.
+
+Pada mode tamu, Diberikan pilihan 4 Fitur seperti gambar di atas dan di minta untuk menginputkan fitur sesuai dengan angka fitur yang disediakan.
+
+# Penjelasan Fitur Tamu
+   1. Daftar Kamar
+
+      ![image](https://github.com/user-attachments/assets/1170cf7a-58a8-48d1-9095-dce82fe1426b)
+
+      fitur daftar kamar ini digunakan untuk melihat kamar hotel apa saja yang tersedia. Disaat daftar kamar sudah muncul dalam output otomatis akan looping kembali ke fitur menu tamu.
+
+   2. Buat Reservasi
+
+      Fitur ini dibuat untuk tamu/user yang mau reservasi Hotel Jatra Balikpapan,
+      
+      Pertama, user terlebih dahulu melihat fitur daftar kamar untuk menentukan/menginput, kemudian input nama,nomor kamar, tanggal reservasi dan pukul reservasi kamar, dengan output sebagai
+      
+      berikut.
+
+
+      ![image](https://github.com/user-attachments/assets/ecb3e9a7-aa38-4c99-b8af-e16e55209e21)
+
+      
+      
 
 
 
