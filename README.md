@@ -105,10 +105,24 @@ Pada mode admin, Diberikan pilihan 5 Fitur seperti gambar di atas dan di minta u
   Jika admin sudah cukup menggunakan fiturnya, admin bisa memilih fitur ke 6 yaitu Keluar atau Mulai ke Mode Login. Disaat memilih admin akan diberikan dua opsi yaitu     
   Keluar yang bisa diartikan langsung keluar exit dari program dan mulai ke Mode Login yang otomatis ketika admin input "Mulai", admin akan diarahkan ke Mode Login lagi.
 
+
   ![image](https://github.com/user-attachments/assets/28ff7516-8067-46de-a867-b5d62e80eac8)
 
-   - Jika kembali
-     ![image](https://github.com/user-attachments/assets/1db44936-0897-44ea-9be8-e34b2be6df78)
+
+  - Jika keluar,
+
+    ![image](https://github.com/user-attachments/assets/1db44936-0897-44ea-9be8-e34b2be6df78)
+
+  - Jika mulai,
+
+    ![image](https://github.com/user-attachments/assets/83bfd736-ea72-4692-831c-cca7f7377438)
+
+# Jika admin input menu admin selain 1-6
+
+![image](https://github.com/user-attachments/assets/8d72fe78-16d4-4e17-a70f-27386aa37576)
+
+Maka outputnya pilihan tidak valid
+
 
 
 
