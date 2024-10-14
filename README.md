@@ -53,7 +53,7 @@ Pada mode admin, Diberikan pilihan 6 Fitur seperti gambar di atas dan di minta u
 
      Masuk dalam fitur "tambahkan_kamar", terlebih dahulu di tampilkan daftar kamar pada Hotel Jatra Balikpapan.
 
-     Disini admin akan diminta memasukan nomor lantai, nomor kamar, tipe kamar, fasilitas kamar sesuai keinginan admin.
+     Disini admin akan diminta memasukkan/ menginput nomor lantai, nomor kamar, tipe kamar, fasilitas kamar sesuai keinginan admin.
 
       ![image](https://github.com/user-attachments/assets/9b3533b5-3a37-4e80-ad35-542b584ea3a6)
      
