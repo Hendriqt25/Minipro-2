@@ -53,7 +53,7 @@ Pada mode admin, Diberikan pilihan 6 Fitur seperti gambar di atas dan di minta u
 
      Masuk dalam fitur "tambahkan_kamar", terlebih dahulu di tampilkan daftar kamar pada Hotel Jatra Balikpapan.
 
-     Disini admin akan diminta memasukkan/ menginput nomor lantai, nomor kamar, tipe kamar, fasilitas kamar sesuai keinginan admin.
+     Disini admin akan diminta memasukkan/menginput nomor lantai, nomor kamar, tipe kamar, fasilitas kamar sesuai keinginan admin.
 
       ![image](https://github.com/user-attachments/assets/9b3533b5-3a37-4e80-ad35-542b584ea3a6)
      
@@ -63,8 +63,7 @@ Pada mode admin, Diberikan pilihan 6 Fitur seperti gambar di atas dan di minta u
      
      ![image](https://github.com/user-attachments/assets/c49d11f3-677d-42e7-b718-372a30fbadfe)
 
-     Pada gambar di atas ini adalah contoh update daftar hotel. Pertama admin menginput nomor kamar kemudian admin bisa mengupdate nomor kamar dengan cara menginputkan     
-     nomor kamar baru, tipe kamar baru, dan fasilitas kamar baru.
+     Pada gambar di atas ini adalah contoh update daftar hotel. Pertama admin menginput nomor kamar kemudian admin bisa mengupdate nomor kamar dengan cara menginputkan nomor kamar baru, tipe kamar baru, dan fasilitas kamar baru.
 
      ![image](https://github.com/user-attachments/assets/6bbc815a-54ee-437a-ac40-988b1c7879ac)
 
@@ -75,16 +74,15 @@ Pada mode admin, Diberikan pilihan 6 Fitur seperti gambar di atas dan di minta u
 
      ![image](https://github.com/user-attachments/assets/1039f872-6598-4a6f-8327-a411b7e59047)
 
-     jika admin menginputkan nomor kamar yang tidak Valid, menampilkan output dinyatakan gagal, data perubahan/update tadi tidak akan terubah/terupdate pada database     
-     tersebut dan output otomatis akan looping kembali ke fitur menu admin.
+     jika admin menginputkan nomor kamar yang tidak Valid, menampilkan output dinyatakan gagal, data perubahan/update tadi tidak akan terubah/terupdate pada database tersebut dan output otomatis akan looping kembali ke fitur menu admin.
 
  4. Hapus kamar
 
-    -Sebelum di Hapus
+    Sebelum di Hapus
     
     ![image](https://github.com/user-attachments/assets/8ffea569-6483-4813-bda3-ec524187d547)
 
-    -Sesudah di hapus
+    Sesudah di hapus
 
     ![image](https://github.com/user-attachments/assets/27867078-0a72-40a2-afed-28e4b625e914)
 
