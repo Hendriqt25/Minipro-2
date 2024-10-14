@@ -63,7 +63,8 @@ Pada mode admin, Diberikan pilihan 5 Fitur seperti gambar di atas dan di minta u
      
      ![image](https://github.com/user-attachments/assets/c49d11f3-677d-42e7-b718-372a30fbadfe)
 
-     Pada gambar di atas ini adalah contoh update daftar hotel. Pertama admin bisa mengupdate daftar kamar dengan cara menginputkan nomor kamar baru, tipe kamar baru, dan         fasilitas kamar baru.
+     Pada gambar di atas ini adalah contoh update daftar hotel. Pertama admin menginput nomor kamar kemudian admin bisa mengupdate nomor kamar dengan cara menginputkan     
+     nomor kamar baru, tipe kamar baru, dan fasilitas kamar baru.
 
      ![image](https://github.com/user-attachments/assets/6bbc815a-54ee-437a-ac40-988b1c7879ac)
 
@@ -87,7 +88,32 @@ Pada mode admin, Diberikan pilihan 5 Fitur seperti gambar di atas dan di minta u
 
     ![image](https://github.com/user-attachments/assets/e501a864-62ce-47f1-ab65-df8d7ea14255)
 
-    Terlihat pada No Barang "11" telah terhapus saat admin menggunakan fitur Hapus barang
+    Terlihat pada Nomor kamar "306" telah terhapus di daftar kamar saat admin menggunakan fitur Hapus barang.
+
+5. Daftar reservasi
+
+   Admin bisa menlihat jika tidak ada yang reservasi hotel maka:
+   
+   ![image](https://github.com/user-attachments/assets/ca12b6ad-4fd8-42f3-9c24-d17e3cc361ab)
+
+   jika ada yang sudah reservasi hotel akan di tampilkan maka:
+   
+   ![image](https://github.com/user-attachments/assets/0861dc60-1eca-4f08-9c1a-997b52c13a79)
+
+6. Keluar atau mulai ke Mode Login
+
+  Jika admin sudah cukup menggunakan fiturnya, admin bisa memilih fitur ke 6 yaitu Keluar atau Mulai ke Mode Login. Disaat memilih admin akan diberikan dua opsi yaitu     
+  Keluar yang bisa diartikan langsung keluar exit dari program dan mulai ke Mode Login yang otomatis ketika admin input "Mulai", admin akan diarahkan ke Mode Login lagi.
+
+  ![image](https://github.com/user-attachments/assets/28ff7516-8067-46de-a867-b5d62e80eac8)
+
+   - Jika kembali
+     ![image](https://github.com/user-attachments/assets/1db44936-0897-44ea-9be8-e34b2be6df78)
+
+
+
+
+    
 
 
     
