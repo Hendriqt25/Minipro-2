@@ -10,5 +10,5 @@ Tema : Sistem Reservasi Hotel
 
 # Flowchart
 
-![Hendri drawio (1)](https://github.com/user-attachments/assets/7b4f0ea8-0bdd-4ba7-8f68-ddfcbacdcc6e)
+![Hendri drawio](https://github.com/user-attachments/assets/fe19e12d-50b9-4fdf-a5f7-9d315da72ae0)
 
