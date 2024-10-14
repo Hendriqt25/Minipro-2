@@ -120,7 +120,7 @@ Pada mode admin, Diberikan pilihan 6 Fitur seperti gambar di atas dan di minta u
 
 ![image](https://github.com/user-attachments/assets/8d72fe78-16d4-4e17-a70f-27386aa37576)
 
-Maka outputnya pilihan tidak valid
+Maka outputnya pilihan tidak valid dan otomatis akan looping kembali ke fitur menu tamu.
 
 # Fitur Menu Tamu 
 
@@ -142,14 +142,66 @@ Pada mode tamu, Diberikan pilihan 4 Fitur seperti gambar di atas dan di minta un
       Fitur ini dibuat untuk tamu/user yang mau reservasi Hotel Jatra Balikpapan,
       
       Pertama, user terlebih dahulu melihat fitur daftar kamar untuk menentukan/menginput, kemudian input nama,nomor kamar, tanggal reservasi dan pukul reservasi kamar, dengan output sebagai
-      
       berikut.
-
 
       ![image](https://github.com/user-attachments/assets/ecb3e9a7-aa38-4c99-b8af-e16e55209e21)
 
+      Jika tamu input nomor kamar yang tidak tersedia,
+
+      ![image](https://github.com/user-attachments/assets/81e3f2dd-caa7-427e-88d9-0c2381ff162b)
+
+      Maka Outputnya "Nomor kamar tidak valid"
+
+      Jika tamu input nomor kamar yang sudah terpesan,
+
+      ![image](https://github.com/user-attachments/assets/276463e0-1b53-4be1-b49c-ae94cb72a6d8)
+
+      Maka outputnya "Nomor Kamar sudah dipesan" dikarenakan nomor kamar 204 udah di reservasi oleh juju,
+      dan otomatis akan looping kembali ke fitur menu tamu.
+
+   3. Daftar Reservasi
+
+      Fitur ini dibuat untuk tamu/user yang sudah reservasi dan mengecak apakah sudah reservasi atau belum di Hotel Jatra Balikpapan,
+
+      jika tamu bernama juju, mau mengecek reservasi kamarnya maka,
+
+      ![image](https://github.com/user-attachments/assets/be183cba-1d72-4ac8-9435-0a40fa977aee)
+
+      Terlihat pada tabel bahwa outputnya tamu bernama juju sudah reservasi kamar di Hotel Jatra Balikpapan, dan juga bisa melihat kamar kamar yang sudah direservasi/dipesan.
+
+      jika sebaliknya,
+
+      ![image](https://github.com/user-attachments/assets/c20b7565-e54c-48ba-9b88-c7fba77518fd)
+
+      Maka, Outputnya Tamu bernama juju ini belum reservasi kamar di Hotel Jatra Balikpapan dan otomatis akan looping kembali ke fitur menu tamu.
+
+   4. Keluar atau mulai ke Mode Login
       
+      Jika tamu sudah cukup menggunakan fiturnya, tamu bisa memilih fitur ke 4 yaitu Keluar atau Mulai ke Mode Login. Disaat memilih admin akan diberikan dua opsi yaitu     
+      Keluar yang bisa diartikan langsung keluar exit dari program dan mulai ke Mode Login yang otomatis ketika admin input "Mulai", tamu akan diarahkan ke Mode Login lagi.
+
+      ![image](https://github.com/user-attachments/assets/f8a3ed4d-a7b8-4f45-9758-16c0ba537a6c)
+
+      Jika mulai,
+
+      ![image](https://github.com/user-attachments/assets/0027f312-8ddc-4bd3-832f-4448e2f6214f)
+
+      jika keluar,
       
+      ![image](https://github.com/user-attachments/assets/8da4ea35-717e-4f05-8cc3-5a1f63665690)
+
+# Jika admin input menu tamu selain 1-4
+
+  ![image](https://github.com/user-attachments/assets/d1f830cb-4d33-4d39-b526-31b31c69e9ac)
+
+  Maka outputnya pilihan tidak valid dan otomatis akan looping kembali ke fitur menu tamu.
+
+
+      
+
+
+      
+
 
 
 
